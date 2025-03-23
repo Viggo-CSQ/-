@@ -1,1 +1,11 @@
+克隆仓库：git clone git地址
+初始化仓库：git init
+以当前分支为基础新建分支：git checkout -b branchname
+单纯地切换到某个分支：git checkout branchname
+删掉特定的分支：git branch -D branchname
 
+合并分支：git merge branchname#重要
+放弃合并：git merge --abort#重要
+
+推送当前分支最新的提交到远程：git push#重要
+拉取远程分支最新的提交到本地：git pull#重要
